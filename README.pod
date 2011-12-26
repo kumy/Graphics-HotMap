@@ -1,9 +1,9 @@
-NAME
+=head1 NAME
 
 Graphics::HotMap -- generate thermographic images.
 
 
-DESCRIPTION
+=head1 DESCRIPTION
 
 Generate thermographic images from a few know points. Others values are
 interpolated. Graphics::HotMap use PDL to work on matrix. PDL can
@@ -12,7 +12,7 @@ compute very very large matrix in a few seconds.
 See <http://kumy.org/HotMap/HotMap.png>
 
 
-INSTALLATION
+=head1 INSTALLATION
 
 To install this module, run the following commands:
 
@@ -30,7 +30,7 @@ following commands:
     ./Build install
 
 
-SUPPORT AND DOCUMENTATION
+=head1 SUPPORT AND DOCUMENTATION
 
 You can find documentation for this module with the perldoc command.
 
@@ -43,7 +43,7 @@ You can also look for information at:
 
 
 
-COPYRIGHT AND LICENSE
+=head1 COPYRIGHT AND LICENSE
 
 Copyright (c) 2011 Mathieu Alorent 
 

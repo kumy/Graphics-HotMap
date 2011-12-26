@@ -9,6 +9,7 @@ WriteMakefile
                            'File::Temp' => 0,
                            'Image::Magick' => 0,
                            'Math::Gradient' => 0,
+                           'Module::Build' => 0,
                            'PDL' => 0,
                            'PDL::IO::Pic' => 0,
                            'PDL::NiceSlice' => 0

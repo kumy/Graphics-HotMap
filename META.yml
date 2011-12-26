@@ -5,8 +5,8 @@ author:
   - 'Mathieu Alorent <cpan@kumy.net>'
 abstract: Generate thermographic images.
 license: gpl3
-resources:
-  license: http://opensource.org/licenses/gpl-3.0.html
+build_requires:
+  Module::Build: 0
 requires:
   Data::Dumper: 0
   File::Temp: 0
@@ -17,11 +17,17 @@ requires:
   PDL::NiceSlice: 0
 configure_requires:
   Module::Build: 0.340201
-provides:
-  Graphics::HotMap:
-    file: lib/Graphics/HotMap.pm
-    version: 0.0001
 generated_by: Module::Build version 0.340201
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
+provides:
+  Graphics::HotMap:
+    file: lib/Graphics/HotMap.pm
+    version: 0.0001
+resources:
+  license: http://opensource.org/licenses/gpl-3.0.html
+  repository:
+    type: git
+    url: git://github.com/kumy/Graphics-HotMap.git
+    web: https://github.com/kumy/Graphics-HotMap
